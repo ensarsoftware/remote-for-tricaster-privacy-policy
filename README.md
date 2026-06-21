@@ -1,5 +1,3 @@
- 
-
 Privacy Policy — Remote for TriCaster
 =====================================
 
@@ -14,18 +12,17 @@ This Privacy Policy describes how the mobile application **Remote for TriCaster*
 
 **Remote for TriCaster does not collect, transmit, or share any personal data with the Developer or with any third party for analytics, advertising, or profiling purposes.**
 
-The App is a remote-control utility for NewTek/Vizrt TriCaster video production systems and compatible production hardware (for example vMix, Resolume, Blackmagic Videohub, NDI sources, teleprompter engines, and similar devices). All data you enter stays **on your device** and is used only to communicate with the equipment **you** configure on **your own local network**. We do **not** operate any server that receives your data.
+The App is a remote-control utility for NewTek/Vizrt TriCaster video production systems. All data you enter stays **on your device** and is used only to communicate with the TriCaster system **you** configure on **your own local network**. We do **not** operate any server that receives your data.
 
 2\. Information stored on your device
 -------------------------------------
 
 To make the App usable, the following information is stored **locally on your device** (using Android SharedPreferences and DataStore). It is never uploaded to us:
 
-*   **Connection settings** — IP addresses, host names and port numbers of the TriCaster and any other devices you choose to control.
+*   **Connection settings** — the IP address / host name and port of the TriCaster system you connect to.
 *   **Login credentials (optional)** — if you enable the “remember” option, the username and password you use to connect to your TriCaster are saved on the device so you do not have to re-enter them. You can disable this at any time, and clearing it removes the stored values.
-*   **Access tokens / keys (optional)** — for certain integrations (e.g. StreamHub token, VideoWall key) any value you enter is stored locally to maintain the connection.
 *   **App lock PIN (optional)** — if you enable a PIN or device lock to protect the App, the PIN is stored locally on the device.
-*   **Production content you create** — teleprompter scripts, macros, DataLink lower-third entries (such as a guest name and title that you type for an on-air graphic), DSK/source assignments, and similar configuration. This content is stored locally and sent only to the production devices you control.
+*   **Production content you create** — teleprompter scripts, macros, DataLink lower-third entries (such as a guest name and title that you type for an on-air graphic), DSK/source assignments, and similar configuration. This content is stored locally and is sent only to the TriCaster system you control.
 *   **App preferences** — language, theme, layout choices, and other UI settings.
 *   **Custom images (optional)** — if you select a logo or splash image, the App stores a reference to that image on your device.
 
@@ -34,10 +31,10 @@ You can erase all of this information at any time by clearing the App’s storag
 3\. Network communication
 -------------------------
 
-The App communicates over your **local network (LAN/Wi-Fi)** with the devices you configure. This includes sending control commands (e.g. switching sources, running transitions, macros) and receiving status information (e.g. tally, preview/program state) from those devices.
+The App communicates over your **local network (LAN/Wi-Fi)** with the TriCaster system you configure. This includes sending control commands (e.g. switching sources, running transitions, macros) and receiving status information (e.g. tally, preview/program state) from the TriCaster.
 
-*   These connections go directly between your device and **your** equipment.
-*   The App may use unencrypted (cleartext) HTTP on the local network because many professional video devices expose only HTTP control interfaces. This traffic stays within your local network and is not sent to us.
+*   These connections go directly between your device and **your** TriCaster system.
+*   The App may use unencrypted (cleartext) HTTP on the local network because the TriCaster control interface is reached over HTTP. This traffic stays within your local network and is not sent to us.
 *   The App does **not** send your connection details, credentials, or production content to the Developer or to any external service.
 
 The App requests the following Android permissions, used only for local network communication: `INTERNET`, `ACCESS_NETWORK_STATE`, `ACCESS_WIFI_STATE`, `CHANGE_WIFI_MULTICAST_STATE`. The App does **not** request access to your location, camera, microphone, contacts, photos, or files.
@@ -74,7 +71,7 @@ The App is a professional broadcast/production tool and is not directed to child
 9\. Security
 ------------
 
-Data stored by the App resides in the App’s private storage area on your device, which is protected by the Android operating system. You are responsible for securing physical access to your device. We recommend using the optional App lock (PIN/device lock) if you store connection credentials. Because some local-network device protocols use unencrypted HTTP, we recommend using the App only on networks you trust.
+Data stored by the App resides in the App’s private storage area on your device, which is protected by the Android operating system. You are responsible for securing physical access to your device. We recommend using the optional App lock (PIN/device lock) if you store connection credentials. Because the TriCaster control interface uses unencrypted HTTP on the local network, we recommend using the App only on networks you trust.
 
 10\. Changes to this Privacy Policy
 -----------------------------------
@@ -101,18 +98,17 @@ Bu Gizlilik Politikası, **E-Soft / EnsarSoft** (“Geliştirici”, “biz”) 
 
 **Remote for TriCaster, hiçbir kişisel veriyi Geliştirici’ye veya herhangi bir üçüncü tarafa; analiz, reklam veya profilleme amacıyla toplamaz, iletmez ya da paylaşmaz.**
 
-Uygulama; NewTek/Vizrt TriCaster video prodüksiyon sistemlerini ve uyumlu prodüksiyon donanımlarını (örneğin vMix, Resolume, Blackmagic Videohub, NDI kaynakları, teleprompter motorları ve benzeri cihazları) uzaktan kontrol etmek için bir araçtır. Girdiğiniz tüm veriler **cihazınızda** kalır ve yalnızca **kendi yerel ağınızda** **sizin** yapılandırdığınız cihazlarla iletişim kurmak için kullanılır. Verilerinizi alan herhangi bir sunucu işletmiyoruz.
+Uygulama; NewTek/Vizrt TriCaster video prodüksiyon sistemlerini uzaktan kontrol etmek için bir araçtır. Girdiğiniz tüm veriler **cihazınızda** kalır ve yalnızca **kendi yerel ağınızda** **sizin** yapılandırdığınız TriCaster sistemiyle iletişim kurmak için kullanılır. Verilerinizi alan herhangi bir sunucu işletmiyoruz.
 
 2\. Cihazınızda saklanan bilgiler
 ---------------------------------
 
 Uygulamanın kullanılabilir olması için aşağıdaki bilgiler **cihazınızda yerel olarak** (Android SharedPreferences ve DataStore kullanılarak) saklanır. Bu bilgiler bize asla gönderilmez:
 
-*   **Bağlantı ayarları** — TriCaster’ın ve kontrol etmeyi seçtiğiniz diğer cihazların IP adresleri, ana bilgisayar adları ve port numaraları.
+*   **Bağlantı ayarları** — bağlandığınız TriCaster sisteminin IP adresi / ana bilgisayar adı ve portu.
 *   **Giriş bilgileri (isteğe bağlı)** — “beni hatırla” seçeneğini etkinleştirirseniz, TriCaster’a bağlanmak için kullandığınız kullanıcı adı ve parola, her seferinde tekrar girmemeniz için cihazda saklanır. Bunu istediğiniz zaman devre dışı bırakabilirsiniz; temizlediğinizde saklanan değerler silinir.
-*   **Erişim anahtarları / token’lar (isteğe bağlı)** — bazı entegrasyonlar için (örn. StreamHub token, VideoWall anahtarı) girdiğiniz değerler bağlantıyı sürdürmek için yerel olarak saklanır.
 *   **Uygulama kilidi PIN’i (isteğe bağlı)** — uygulamayı korumak için bir PIN veya cihaz kilidi etkinleştirirseniz, PIN cihazda yerel olarak saklanır.
-*   **Oluşturduğunuz prodüksiyon içeriği** — teleprompter metinleri, makrolar, DataLink alt-bant girdileri (yayın grafiği için yazdığınız konuk adı ve unvanı gibi), DSK/kaynak atamaları ve benzeri yapılandırmalar. Bu içerik yerel olarak saklanır ve yalnızca kontrol ettiğiniz prodüksiyon cihazlarına gönderilir.
+*   **Oluşturduğunuz prodüksiyon içeriği** — teleprompter metinleri, makrolar, DataLink alt-bant girdileri (yayın grafiği için yazdığınız konuk adı ve unvanı gibi), DSK/kaynak atamaları ve benzeri yapılandırmalar. Bu içerik yerel olarak saklanır ve yalnızca kontrol ettiğiniz TriCaster sistemine gönderilir.
 *   **Uygulama tercihleri** — dil, tema, yerleşim seçimleri ve diğer arayüz ayarları.
 *   **Özel görseller (isteğe bağlı)** — bir logo veya açılış görseli seçerseniz, Uygulama bu görsele dair bir referansı cihazınızda saklar.
 
@@ -121,10 +117,10 @@ Bu bilgilerin tamamını, Android Ayarlar’dan Uygulama depolamasını temizley
 3\. Ağ iletişimi
 ----------------
 
-Uygulama, yapılandırdığınız cihazlarla **yerel ağınız (LAN/Wi-Fi) üzerinden** iletişim kurar. Bu; kontrol komutları göndermeyi (örn. kaynak değiştirme, geçişler, makrolar) ve cihazlardan durum bilgisi almayı (örn. tally, önizleme/program durumu) içerir.
+Uygulama, yapılandırdığınız TriCaster sistemiyle **yerel ağınız (LAN/Wi-Fi) üzerinden** iletişim kurar. Bu; kontrol komutları göndermeyi (örn. kaynak değiştirme, geçişler, makrolar) ve TriCaster’dan durum bilgisi almayı (örn. tally, önizleme/program durumu) içerir.
 
-*   Bu bağlantılar doğrudan cihazınız ile **sizin** ekipmanınız arasında gerçekleşir.
-*   Birçok profesyonel video cihazı yalnızca HTTP kontrol arayüzü sunduğundan, Uygulama yerel ağda şifrelenmemiş (cleartext) HTTP kullanabilir. Bu trafik yerel ağınız içinde kalır ve bize gönderilmez.
+*   Bu bağlantılar doğrudan cihazınız ile **sizin** TriCaster sisteminiz arasında gerçekleşir.
+*   TriCaster kontrol arayüzüne HTTP üzerinden erişildiği için, Uygulama yerel ağda şifrelenmemiş (cleartext) HTTP kullanabilir. Bu trafik yerel ağınız içinde kalır ve bize gönderilmez.
 *   Uygulama; bağlantı bilgilerinizi, kimlik bilgilerinizi veya prodüksiyon içeriğinizi Geliştirici’ye ya da herhangi bir harici servise göndermez.
 
 Uygulama, yalnızca yerel ağ iletişimi amacıyla şu Android izinlerini ister: `INTERNET`, `ACCESS_NETWORK_STATE`, `ACCESS_WIFI_STATE`, `CHANGE_WIFI_MULTICAST_STATE`. Uygulama; konumunuza, kameranıza, mikrofonunuza, kişilerinize, fotoğraflarınıza veya dosyalarınıza erişim **istemez**.
@@ -161,7 +157,7 @@ Uygulama profesyonel bir yayın/prodüksiyon aracıdır ve 13 yaşın altındaki
 9\. Güvenlik
 ------------
 
-Uygulamanın sakladığı veriler, cihazınızdaki Uygulamaya özel, Android işletim sistemi tarafından korunan özel depolama alanında bulunur. Cihazınıza fiziksel erişimi güvence altına almak sizin sorumluluğunuzdadır. Bağlantı kimlik bilgilerini saklıyorsanız, isteğe bağlı Uygulama kilidini (PIN/cihaz kilidi) kullanmanızı öneririz. Bazı yerel ağ cihaz protokolleri şifrelenmemiş HTTP kullandığından, Uygulamayı yalnızca güvendiğiniz ağlarda kullanmanızı öneririz.
+Uygulamanın sakladığı veriler, cihazınızdaki Uygulamaya özel, Android işletim sistemi tarafından korunan özel depolama alanında bulunur. Cihazınıza fiziksel erişimi güvence altına almak sizin sorumluluğunuzdadır. Bağlantı kimlik bilgilerini saklıyorsanız, isteğe bağlı Uygulama kilidini (PIN/cihaz kilidi) kullanmanızı öneririz. TriCaster kontrol arayüzü yerel ağda şifrelenmemiş HTTP kullandığından, Uygulamayı yalnızca güvendiğiniz ağlarda kullanmanızı öneririz.
 
 10\. Bu Gizlilik Politikasındaki değişiklikler
 ----------------------------------------------
