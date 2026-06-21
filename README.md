@@ -4,27 +4,6 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Privacy Policy — Remote for TriCaster</title>
-<style>
-  :root { color-scheme: light dark; }
-  body {
-    font-family: -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
-    line-height: 1.6; max-width: 820px; margin: 0 auto; padding: 24px 18px 64px;
-    color: #1a1a1a; background: #fff;
-  }
-  @media (prefers-color-scheme: dark) {
-    body { color: #e6e6e6; background: #0f1115; }
-    a { color: #6cb0ff; }
-    code { background: #1c2029; }
-    hr { border-color: #2a2f3a; }
-  }
-  h1 { font-size: 1.7rem; margin-bottom: .2rem; }
-  h2 { font-size: 1.2rem; margin-top: 2rem; border-bottom: 1px solid #ddd; padding-bottom: .2rem; }
-  .updated { color: #888; font-size: .9rem; }
-  code { background: #f2f2f2; padding: 1px 5px; border-radius: 4px; font-size: .9em; }
-  ul { padding-left: 1.3rem; }
-  hr { margin: 3rem 0; border: none; border-top: 1px solid #ddd; }
-  .lang-note { font-size: .9rem; color: #888; }
-</style>
 </head>
 <body>
 
