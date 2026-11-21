@@ -3,7 +3,6 @@
 **Last updated: 21 November 2026**
 
 This Privacy Policy describes how the mobile application **Remote for TriCaster**
-(package name `com.remote.tc`, the "App"), developed by **E-Soft / EnsarSoft**
 (the "Developer", "we", "us"), handles information.
 
 By installing or using the App you agree to this Privacy Policy.
@@ -185,7 +184,6 @@ Email: ensarsoftware@gmail.com
 **Son güncelleme: 21 Kasım 2026**
 
 Bu Gizlilik Politikası, **E-Soft / EnsarSoft** ("Geliştirici", "biz")
-tarafından geliştirilen **Remote for TriCaster** (paket adı `com.remote.tc`,
 "Uygulama") adlı mobil uygulamanın bilgileri nasıl ele aldığını açıklar.
 
 Uygulamayı yükleyerek veya kullanarak bu Gizlilik Politikasını kabul etmiş
